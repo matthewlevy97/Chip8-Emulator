@@ -2,3 +2,4 @@
 *.ch8
 .gdb*
 .peda*
+build/
