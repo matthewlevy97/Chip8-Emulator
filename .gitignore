@@ -1,0 +1,4 @@
+*.swp
+*.ch8
+.gdb*
+.peda*
