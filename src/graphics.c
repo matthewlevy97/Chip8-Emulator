@@ -64,11 +64,11 @@ int graphics_update() {
     case SDL_KEYDOWN:
         switch(e.key.keysym.sym) {
         case SDLK_1:
-            keypresses[0x0] = 1; break;
-        case SDLK_2:
             keypresses[0x1] = 1; break;
-        case SDLK_3:
+        case SDLK_2:
             keypresses[0x2] = 1; break;
+        case SDLK_3:
+            keypresses[0x3] = 1; break;
         case SDLK_4:
             keypresses[0xC] = 1; break;
         case SDLK_q:
@@ -101,11 +101,11 @@ int graphics_update() {
     case SDL_KEYUP:
         switch(e.key.keysym.sym) {
         case SDLK_1:
-            keypresses[0x0] = 0; break;
-        case SDLK_2:
             keypresses[0x1] = 0; break;
-        case SDLK_3:
+        case SDLK_2:
             keypresses[0x2] = 0; break;
+        case SDLK_3:
+            keypresses[0x3] = 0; break;
         case SDLK_4:
             keypresses[0xC] = 0; break;
         case SDLK_q:
